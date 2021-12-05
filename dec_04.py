@@ -2,7 +2,6 @@
 # https://adventofcode.com/2021/day/4
 
 
-# Create list of lists of bits
 with open("./input/dec_04_input.txt", encoding="utf-8", mode="r") as f:
     lines = [line for line in f.read().splitlines()]
 
