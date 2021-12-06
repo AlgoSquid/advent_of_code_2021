@@ -5,7 +5,7 @@ from collections import deque
 from functools import reduce
 
 
-with open("./input/dec_06_test.txt", encoding="utf-8", mode="r") as f:
+with open("./input/dec_06_input.txt", encoding="utf-8", mode="r") as f:
     timers = [int(timer) for timer in f.readline().split(",")]
 
 def iterative_prediction(timers, day):
